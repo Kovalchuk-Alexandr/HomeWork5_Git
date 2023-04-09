@@ -1,0 +1,26 @@
+#block {
+    width: 100px;
+    height: 100px;
+    background: bisque;
+    /*animation-name: block; /* имя анимации */
+    animation-name: coolAnimation;
+    animation-duration: 5s; /* продолжительность анимации */
+    animation-delay: 0.2s; /* задержка, после загрузки страницы*/
+    animation-iteration-count: 5; /* количество повторов*/
+    animation-direction: alternate; /* маятник */
+
+}
+
+/* объявляем анимацию*/
+@keyframes block {
+    from {background: blanchedalmond;}
+    to {background:darkorchid}
+}
+
+@keyframes coolAnimation {
+    0% {border-radius: 0px; border: 1px solid silver;}
+    10% {border-radius: 10%; border: 3px solid silver;}
+    40% {border-radius: 40%; border: 5px solid silver;}
+    70% {border-radius: 100%;border: 7px solid silver; background:darkorchid}
+    100% {border-radius: 15px;border: 2px solid silver;}
+}

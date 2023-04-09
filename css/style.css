@@ -1,0 +1,27 @@
+/* Создание переменных */
+:root {
+   --main-color: #90c4b0; 
+   --main-font-size: 26px;
+}
+
+body {
+    font-size: 14px;
+    background: url(); /* встроенная ф.:подключение изображения */
+}
+
+.menu__link {
+    color: #dc143c;
+    font-size: var(--main-font-size);
+    width: calc(100% - 40px); /* встроенная ф.:вычисление */
+    background: bisque;
+}
+
+.menu__link--active {
+    color:#8a2be2;
+    color: var(--main-color);
+}
+
+.menu__link--deactive {
+    color:darkgoldenrod;
+    cursor: default;
+}

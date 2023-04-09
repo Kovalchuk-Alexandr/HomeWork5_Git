@@ -1,0 +1,10 @@
+The CSS matrix() function can be used with CSS transforms to style elements in a two-dimensional space.
+The matrix() function is an alternative to the two-dimensional transform functions:
+ rotate() , skew() , scale() , and translate() .
+  In other words, you can use the matrix() function instead of those functions.
+  
+The matrix() method combines all the 2D transform methods into one.
+The matrix() method take six parameters, containing mathematic functions, which allows you to
+rotate, scale, move (translate), and skew elements.
+
+The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())  

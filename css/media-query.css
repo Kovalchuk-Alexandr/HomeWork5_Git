@@ -1,0 +1,16 @@
+body {
+    background: bisque;
+}
+
+/* Сделать чтобы фон менялся при определенном разрешении*/
+@media(max-width:320px){
+    body {
+        background:cornflowerblue;
+    }
+}
+
+@media(min-width:520px) and (max-width:1000px){
+    body {
+        background:coral;
+    }
+}
