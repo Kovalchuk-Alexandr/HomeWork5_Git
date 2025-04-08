@@ -1,49 +1,48 @@
 .container {
-    display: flex;
-    /* flex-wrap: wrap; перенос на новую строку */
-    justify-content: space-around; /* выравнивание */
-    /* flex-direction: row-reverse;
+  display: flex;
+  /* flex-wrap: wrap; перенос на новую строку */
+  justify-content: space-around; /* выравнивание */
+  /* flex-direction: row-reverse;
     flex-direction: column; */
-    
-    /* по-умолчанию, блоки расстянуты по высоте до размера большего блока*/
-    align-items: stretch; 
-    
-    /* Выравнивание по верху, низ - по размеру текста (заполнения)*/
-    align-items: flex-start;
 
-    /* Выравнивание по низу, низ - по размеру текста (заполнения)*/
-    align-items: flex-end;
+  /* по-умолчанию, блоки расстянуты по высоте до размера большего блока*/
+  align-items: stretch;
 
-    /* Выравнивание по базовой линии, низ - по размеру текста (заполнения)*/
-    align-items: baseline;
+  /* Выравнивание по верху, низ - по размеру текста (заполнения)*/
+  align-items: flex-start;
 
-    /* Выравнивание по центру, низ - по размеру текста (заполнения)*/
-    align-items: center;
+  /* Выравнивание по низу, низ - по размеру текста (заполнения)*/
+  align-items: flex-end;
 
+  /* Выравнивание по базовой линии, низ - по размеру текста (заполнения)*/
+  align-items: baseline;
+
+  /* Выравнивание по центру, низ - по размеру текста (заполнения)*/
+  align-items: center;
 }
 
 .container > div {
-    padding: 10px;
-    border: 2px solid silver;
-    margin-bottom: 10px ;
-    flex-basis: 30%;
+  padding: 10px;
+  border: 2px solid silver;
+  margin-bottom: 10px;
+  flex-basis: 30%;
 }
 
 .box-1 {
-    /*flex-basis: 100px; /* аналог width: 100px; */
-    /* flex: 2;  /* пропорциональный размер */
-    /* order: 0; порядок размещения, умолч 0 */
-    align-self: flex-end;  /*дополнительное выравнивавние одного эл-та*/
+  /*flex-basis: 100px; /* аналог width: 100px; */
+  /* flex: 2;  /* пропорциональный размер */
+  /* order: 0; порядок размещения, умолч 0 */
+  align-self: flex-end; /*дополнительное выравнивавние одного эл-та*/
 }
-    
+
 .box-2 {
-    /*flex-basis: 500px; /* аналог width: 500px; */
-    /* flex: 3; */
-    /* margin-right: 50px; */
-    /* order: 1; */
-    align-self: flex-start;
+  /*flex-basis: 500px; /* аналог width: 500px; */
+  /* flex: 3; */
+  /* margin-right: 50px; */
+  /* order: 1; */
+  align-self: flex-start;
 }
 .box-3 {
-    flex: 1;
-    order: -1;
+  flex: 1;
+  order: -1;
 }
